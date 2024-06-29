@@ -20,10 +20,10 @@ packages:
     dependency: transitive
     description:
       name: app_dimen
-      sha256: a8b4c8184d88fb3453ed1a36e6edaed8c87efd232ba31fa0c7619085043b586c
+      sha256: f30799e8f91813b76d4bcff9d1ee80a63ae324040ca9d6e5f5941e61c76f9e40
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   async:
     dependency: transitive
     description:

@@ -101,16 +101,14 @@ class Customizer {
     DeviceType? deviceType,
     final Iterable<CustomizerConfigData> customizers = const [],
   }) {
-    _i = Customizer(
+    _i = Customizer._(
       deviceType: deviceType,
       deviceConfig: deviceConfig,
       customizers: customizers,
     );
   }
 
-  void createInstance() => _i = this;
-
-  Customizer({
+  Customizer._({
     DeviceConfig? deviceConfig,
     DeviceType? deviceType,
     final Iterable<CustomizerConfigData> customizers = const [],
@@ -120,6 +118,18 @@ class Customizer {
       _configs.addEntries(customizers.map((e) => MapEntry(e.name, e.config)));
     }
   }
+
+  Customizer({
+    DeviceConfig? deviceConfig,
+    DeviceType? deviceType,
+    final Iterable<CustomizerConfigData> customizers = const [],
+  }) : this._(
+          customizers: customizers,
+          deviceType: deviceType,
+          deviceConfig: deviceConfig,
+        );
+
+  void createInstance() => _i = this;
 
   Device _device(Size size) {
     final x = _config ?? DeviceConfig.i;
