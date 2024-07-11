@@ -6,7 +6,7 @@ void main() {
     AppCustomizer(
       customizer: Customizer(
         customizers: [
-          const CustomizerConfigData(
+          const CustomizerConfigData<Alignment>(
             name: "box",
             config: CustomizerConfig(
               mobile: Customizers(
@@ -21,9 +21,13 @@ void main() {
         dimens: [],
       ),
       theme: ColorTheme(
-        base: const ColorThemeConfig(
+        themeMode: ThemeMode.light,
+        scaffold: const ColorThemeConfig(
           light: ThemeColors(
-            primary: Colors.deepPurple,
+            primary: Colors.green,
+          ),
+          dark: ThemeColors(
+            primary: Colors.red,
           ),
         ),
         colors: [],
