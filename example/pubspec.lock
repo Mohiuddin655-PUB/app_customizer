@@ -5,25 +5,25 @@ packages:
     dependency: transitive
     description:
       name: app_color
-      sha256: e889dc164650fb5692fcfa6ff891074e973f5062414d2f68862e1f83e3b34f4c
+      sha256: e0e130d07ade1ad77a7db2c32ac8ef2f53b688336c2a175e86dd179999ccc709
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.3"
+    version: "1.0.4"
   app_customizer:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "1.0.3"
+    version: "1.0.4"
   app_dimen:
     dependency: transitive
     description:
       name: app_dimen
-      sha256: b699fb5af57cd74000a7d16419effc9a5ffb2a6971dd70431d8077ac8a1e72e4
+      sha256: "0deabeaa9ef0f6533cba577dc68798ab47101f44124a2cbb64cebda4f7375418"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.6"
+    version: "1.0.7"
   async:
     dependency: transitive
     description:

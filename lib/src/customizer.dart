@@ -133,7 +133,7 @@ class Customizer {
 
   Device _device(Size size) {
     final x = _config ?? DeviceConfig.i;
-    if (_type != null) return x.deviceFromType(_type);
+    if (_type != null) return x.deviceFromType(_type!);
     return x.device(size.width, size.height);
   }
 }

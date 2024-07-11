@@ -67,7 +67,7 @@ class Home extends StatelessWidget {
               borderRadius: BorderRadius.circular(context.corners.medium),
               border: Border.all(
                 color: context.backgroundColor.primary ?? Colors.black,
-                width: context.borders.normal ?? 1,
+                width: context.strokes.normal,
               ),
             ),
             child: Text(
