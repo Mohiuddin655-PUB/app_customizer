@@ -1,6 +1,6 @@
 name: app_customizer
 description: "Easy way to customize application colors, pixels, borders, alignment etc. from root instance."
-version: 1.0.4
+version: 1.0.5
 repository: https://github.com/Mohiuddin655-PUB/app_customizer.git
 
 environment:
@@ -8,7 +8,7 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  app_color: ^1.0.4
+  app_color: ^1.0.5
   app_dimen: ^1.0.7
   flutter_device_config: ^1.0.1
   flutter:

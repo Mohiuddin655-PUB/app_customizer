@@ -1,3 +1,7 @@
+## 1.0.5
+
+* App color library update [Fixed dark and light color supported]
+
 ## 1.0.4
 
 * App color library update [Default theme mode supported]
