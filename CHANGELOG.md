@@ -1,3 +1,7 @@
+## 1.0.6
+
+* DimensionSize supported [dp, dx, dy]
+
 ## 1.0.5
 
 * App color library update [Fixed dark and light color supported]

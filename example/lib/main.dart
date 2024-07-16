@@ -17,7 +17,7 @@ void main() {
         ],
       ),
       deviceConfig: const DeviceConfig(),
-      dimen: Dimen(
+      dimen: DimenInitializer(
         dimens: [],
       ),
       theme: ColorTheme(

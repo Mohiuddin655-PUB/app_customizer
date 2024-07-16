@@ -15,15 +15,15 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "1.0.5"
+    version: "1.0.6"
   app_dimen:
     dependency: transitive
     description:
       name: app_dimen
-      sha256: "0deabeaa9ef0f6533cba577dc68798ab47101f44124a2cbb64cebda4f7375418"
+      sha256: "7362d5ab3c13d7654b3121b5035a14462162b4f2d28370779420eb7401f200b9"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.7"
+    version: "1.0.8"
   async:
     dependency: transitive
     description:
@@ -89,10 +89,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_device_config
-      sha256: "322461319f655e32c1ef1dedb8a85d0cbd90df6ebdc5386cf0df4504f9974861"
+      sha256: "991f68148af22ae2c44070f66b027651413d8899d373aa857ada7c517c816ced"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.3"
   flutter_lints:
     dependency: "direct dev"
     description:

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class AppCustomizer extends StatefulWidget {
   final Customizer customizer;
   final DeviceConfig deviceConfig;
-  final Dimen dimen;
+  final DimenInitializer dimen;
   final ColorTheme theme;
   final Widget child;
 
